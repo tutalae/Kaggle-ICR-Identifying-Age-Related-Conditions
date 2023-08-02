@@ -1,0 +1,15 @@
+mlflow
+jupyter
+scikit-learn
+pandas
+seaborn
+hyperopt
+xgboost
+fastparquet
+streamlit
+numba
+shap
+evidently
+ydata_profiling
+imblearn
+tensorflow

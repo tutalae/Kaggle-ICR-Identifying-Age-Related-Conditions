@@ -1,0 +1,44 @@
+artifact_path: GradientBoosting_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.0
+mlflow_version: 2.5.0
+model_uuid: 22751bf6179d4358a145117def13c5c0
+run_id: 01583f09eb2f4c12832ffe7543edeaa1
+signature:
+  inputs: '[{"type": "double", "name": "AB"}, {"type": "double", "name": "AF"}, {"type":
+    "double", "name": "AH"}, {"type": "double", "name": "AM"}, {"type": "double",
+    "name": "AR"}, {"type": "double", "name": "AX"}, {"type": "double", "name": "AY"},
+    {"type": "double", "name": "AZ"}, {"type": "double", "name": "BC"}, {"type": "double",
+    "name": "BD "}, {"type": "double", "name": "BN"}, {"type": "double", "name": "BP"},
+    {"type": "double", "name": "BQ"}, {"type": "double", "name": "BR"}, {"type": "double",
+    "name": "BZ"}, {"type": "double", "name": "CB"}, {"type": "double", "name": "CC"},
+    {"type": "double", "name": "CD "}, {"type": "double", "name": "CF"}, {"type":
+    "double", "name": "CH"}, {"type": "double", "name": "CL"}, {"type": "double",
+    "name": "CR"}, {"type": "double", "name": "CS"}, {"type": "double", "name": "CU"},
+    {"type": "double", "name": "CW "}, {"type": "double", "name": "DA"}, {"type":
+    "double", "name": "DE"}, {"type": "double", "name": "DF"}, {"type": "double",
+    "name": "DH"}, {"type": "double", "name": "DI"}, {"type": "double", "name": "DL"},
+    {"type": "double", "name": "DN"}, {"type": "double", "name": "DU"}, {"type": "double",
+    "name": "DV"}, {"type": "double", "name": "DY"}, {"type": "double", "name": "EB"},
+    {"type": "double", "name": "EE"}, {"type": "double", "name": "EG"}, {"type": "double",
+    "name": "EH"}, {"type": "integer", "name": "EJ"}, {"type": "double", "name": "EL"},
+    {"type": "double", "name": "EP"}, {"type": "double", "name": "EU"}, {"type": "double",
+    "name": "FC"}, {"type": "double", "name": "FD "}, {"type": "double", "name": "FE"},
+    {"type": "double", "name": "FI"}, {"type": "double", "name": "FL"}, {"type": "double",
+    "name": "FR"}, {"type": "double", "name": "FS"}, {"type": "double", "name": "GB"},
+    {"type": "double", "name": "GE"}, {"type": "double", "name": "GF"}, {"type": "double",
+    "name": "GH"}, {"type": "double", "name": "GI"}, {"type": "double", "name": "GL"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-08-02 12:41:59.406128'
